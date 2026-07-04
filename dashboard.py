@@ -4,16 +4,16 @@ import streamlit as st
 
 # 1. Page Configuration & Premium Theming Styling
 st.set_page_config(
-    page_title="European Bank | Portfolio Intelligence Group", 
+    page_title="European Bank | Portfolio Intelligence Project", 
     page_icon="🏦",
     layout="wide"
 )
 
 # Executive Hex Color Palette Codes
 COLOR_PRIMARY = "#1E3A8A"    # Deep Navy
-COLOR_SECONDARY = "#0284C7"  # Slate Blue
+COLOR_SECONDARY = "#0284C7"  # Orange
 COLOR_ACCENT = "#E11D48"     # Risk Crimson / Accent
-COLOR_MUTED = "#94A3B8"      # Cool Grey
+COLOR_MUTED = "#94A3B8"      # Black
 
 # 2. File Ingestion Pipeline
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
